@@ -1,0 +1,179 @@
+#container{
+	background-color: #B20000;
+	height: 70px;
+	width: 1024px;
+}
+	#container img{
+		margin-top: 10px;
+		margin-left: 25px;
+		height: 50px ;
+		width: 50px;
+		display: inline-block;
+		position: relative;	
+	}
+
+	#container h4 {
+		color: white;
+		display: inline-block;
+		position: relative;
+		bottom: 20px;
+		left: 0px;
+	}
+
+	#container div {
+		border: white;
+		display: inline-block;
+		left: 20px;
+		background-color: white
+	}
+	/*p is block by default*/
+	#container p {
+		display: inline-block;
+		position: relative;
+		left: 300px;
+		color: white;
+	}
+
+	#container p a {
+		color: yellow;
+		display: inline-block;
+		position: relative;
+}
+
+#navigation {
+	height: 30px;
+	width: 1024px;
+	background-color: #C0C0C0;
+}
+
+#navigation p {
+	display: inline;
+	position: relative;
+	font-size: 12px;
+	font-weight: bold;
+	color: gray;
+	top: 5px;
+	left: 5px;
+	border-right: 1px;
+	border-color: black;
+}
+
+#navigation a {
+	color: black;
+	text-decoration: none;
+}
+
+#block {
+	height: 720px;
+	width: 1024px;
+}
+
+#left{
+	height: auto ;
+	width: 150px;
+	display: inline-block;
+	position: relative;
+	top: 50px;
+	left: 30px; 
+	/* SUPER USEFUL, override default setting -> div will stick to the bottom*/
+	vertical-align: top;
+	padding: 20px;
+	line-height: 25px;
+	border: 2px solid #D0D0D0 ;
+	background-color: #E8E8E8  ;
+
+}
+
+
+#right{
+	height: 400px;
+	width: 720px;
+	display: inline-block;
+	position: relative;
+	top: 20px;
+	left: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+p {
+	font-size: 12px;
+	left: 600px;
+	bottom: 45px;
+}
+
+
+#bsd {
+	width: 500px;
+	height: 350px;
+	display: inline-block;
+	position: relative;
+	left: 20px;
+	top: 5px;
+	padding-left: 10px;
+}
+
+	#bsd ul{
+		display: block;
+	}
+
+	#bsd h4, h5 {
+		margin: 10px 0px;
+		color: #E80000  ;
+	}
+
+hr {
+	width: 100%;
+}
+
+form {
+	border-radius: 500px;
+	display: inline-block;
+	position: relative;
+	left: 120px;
+	bottom: 20px;
+}
+
+form label {
+	color: transparent;
+}
+
+#block { 
+	height: 650px;
+	width: 1024px;
+}
+
+#line { 
+	border: 50%;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+.bold {
+	font-weight: bold;
+	color: #E80000  ;
+	font-size: 12px;
+}
+
+li {
+	color: black;
+	font-size: 12px;
+}
+
+li a { 
+	color: #E80000 ;
+	font-size: 12px;
+}
+
+#line ul {
+	text-decoration: none;
+	color: black;
+}
+
+#left a {
+	display: block;
+	font-size: 13px;
+	color: #E80000  ;
+}
+
+
